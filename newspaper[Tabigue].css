@@ -1,0 +1,18 @@
+h1{
+    Font-weight:bold;
+    Color: blue;
+    text-align: Center;
+
+}
+em{
+    color: silver;
+}
+body{
+    background-color: skyblue;
+}
+div{
+    color: fuchsia;
+}
+.brightorange{
+    color: #FFA500;
+}
