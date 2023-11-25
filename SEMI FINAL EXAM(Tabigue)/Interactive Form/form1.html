@@ -1,0 +1,35 @@
+<!--build an html form with fields for name, email and a submit button apply css to style the form element. use javacript to validate that the email field contains a valid
+Email address before submission.-->
+
+<!--Display an alert message if the form is submitted successfully-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <meta name="User" author="Jhon Jevon Tabigue">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+        
+    
+</head>
+<body>
+
+    <form id="myForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
+
